@@ -9,7 +9,10 @@ public class TechGlobalLogoTest extends TechGlobalBase {
     @Test
     public void validateTechGlobalLogo() {
         Assert.assertTrue(techGlobalBasePage.logo.isDisplayed());
+
     }
+
+
 
 
 }
