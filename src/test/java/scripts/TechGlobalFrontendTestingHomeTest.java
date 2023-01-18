@@ -2,11 +2,8 @@ package scripts;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
-import utilities.Driver;
-import utilities.Waiter;
 
 public class TechGlobalFrontendTestingHomeTest extends TechGlobalBase{
 
