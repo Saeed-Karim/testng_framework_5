@@ -1,13 +1,10 @@
 package scripts;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalWaitsPage;
-import utilities.Driver;
 import utilities.Waiter;
 
 public class TechGlobalWaitsTest extends TechGlobalBase {

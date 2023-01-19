@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class TechGlobalWaitsPage {
+public class TechGlobalWaitsPage extends TechGlobalBasePage{
 
     public TechGlobalWaitsPage(){
         PageFactory.initElements(Driver.getDriver(), this);
@@ -16,9 +16,6 @@ public class TechGlobalWaitsPage {
 
     @FindBy(css = "button[class*='red_box_']")
     public WebElement redBox;
-
-
-
 
 
 
