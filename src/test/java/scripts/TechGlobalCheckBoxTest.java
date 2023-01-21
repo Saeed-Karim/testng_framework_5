@@ -51,7 +51,18 @@ public class TechGlobalCheckBoxTest extends TechGlobalBase{
         }
     }
 
-        @Test(priority = 2, description = "Validate checkboxes2")
+
+    /**
+     * Go to https://techglobal-training.netlify.app/
+     * Click on "Practices" dropdown in the header
+     * Select the "Frontend Testing" option
+     * Click on the "Checkboxes" card
+     * Validate "Tesla" and "SpaceX" checkboxes are displayed, enabled and not selected
+     * Select both and validate they are both selected
+     * Deselect bpth and validate they are deselected
+     */
+
+    @Test(priority = 2, description = "Validate checkboxes2")
         public void validateCheckBoxes2(){
             techGlobalFrontendTestingHomePage.getFrontendTestingPage();
             techGlobalFrontendTestingHomePage.clickOnCard(6);
