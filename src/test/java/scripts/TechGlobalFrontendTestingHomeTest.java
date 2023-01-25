@@ -12,7 +12,7 @@ public class TechGlobalFrontendTestingHomeTest extends TechGlobalBase{
         techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
     }
 
-    @Test
+    @Test(priority = 1, description = "Validate Frontend Testing cards")
     public void validateFrontendTestingCards(){
         techGlobalFrontendTestingHomePage.getFrontendTestingPage();
 
@@ -45,21 +45,14 @@ public class TechGlobalFrontendTestingHomeTest extends TechGlobalBase{
 
     @Test(priority = 2, description = "Validate URL")
     public void validateFrontendTestingURL(){
-    /*
-    Go to https://techglobal-training.netlify.app/
-    Click on "Practices" dropdown
-    Click on "Frontend Testing" option
-    Validate the url contains "frontend"
-     */
+        /*
+        Go to https://techglobal-training.netlify.app/
+        Click on "Practices" dropdown
+        Click on "Frontend Testing" option
+        Validate the url contains "frontend"
+         */
 
         techGlobalFrontendTestingHomePage.getFrontendTestingPage();
         Assert.assertTrue(driver.getCurrentUrl().contains("frontend"));
-
-
-
-
-
-
     }
-
 }

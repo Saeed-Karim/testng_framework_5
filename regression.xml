@@ -5,8 +5,8 @@
         <classes>
             <class name="scripts.TechGlobalCheckBoxTest">
                 <methods>
-                    <include name="validateCheckBoxes"/>
-                    <include name="validateCheckBoxes2"/>
+                    <include name="validateCheckboxes"/>
+                    <include name="validateCheckboxes2"/>
                 </methods>
             </class>
             <class name="scripts.TechGlobalDynamicElementsTest">
@@ -35,9 +35,10 @@
             <class name="scripts.TechGlobalWaitsTest">
                 <methods>
                     <include name="validateRedBox"/>
-                    <include name="validateBlueBox"/>
                 </methods>
             </class>
+            <class name="scripts.TechGlobalDropdownsTest"/>
+            <class name="scripts.TechGlobalMultipleWindowsTest"/>
         </classes>
     </test>
 </suite>
